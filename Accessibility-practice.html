@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Checkout Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
 </head>
+
 <body>
-    <h1>Checkout</h1>
-    <section>
-        <h2>Your Cart</h2>
-        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="image of an unsolved rubic's cube">
-    </section>
-    <section>
-        <h2>Payment Information</h2>
-        <form>
-            <fieldset>
-                <label for="card-name"><span aria-hidden="true">*</span>Name on card</label>
-                <input id="card-name" name="card-name" type="text" required><br>
-                <label for="card-number"><span aria-hidden="true">*</span>Number on card</label>
-                <input type="text" id="card-number" name="card-number" required aria-describedby="card-number-help">
-                <p id="card-number-help">card number must have 8 digits only numbers</p>
-            </fieldset>
-        </form>
-    </section>
+  <h1>Media Player and Transcript</h1>
+
+  <section>
+    <h2>Sailing Away</h2>
+    <audio controls aria-label="Audio player for Sailing Away">
+      <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <section>
+    <h2>What is the .map() Method and How Does It Work?</h2>
+    <video controls width="640" aria-label="Video tutorial on the JavaScript map method">
+      <source src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4" type="video/mp4">
+      <track src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.vtt" kind="subtitles" srclang="en" label="English Subtitles">
+    </video>
+  </section>
+
+  <section>
+    <h2>Transcript</h2>
+    <p>In this tutorial, we explore the JavaScript array map method. The map method creates a new array populated with the results of calling a provided function on every element in the calling array. This allows you to transform data efficiently without mutating the original array data structure.</p>
+  </section>
 </body>
+
 </html>
