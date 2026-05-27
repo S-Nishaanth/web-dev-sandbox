@@ -1,0 +1,27 @@
+a {
+    text-decoration: none;
+}
+a:link{
+    color:brown;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:pink;
+}
+a:focus{
+    color:green;
+    outline:3px solid green;
+}
+a:active{
+    color:black;
+}
+li{
+    list-style-type: none;
+    background-color: lightgray;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    max-width: 300px;
+}
