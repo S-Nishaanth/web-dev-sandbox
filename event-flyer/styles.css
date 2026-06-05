@@ -1,0 +1,22 @@
+body{
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-top:0;
+  margin-bottom:0;
+  margin-right:auto;
+  margin-left:auto;
+  width:100vw;
+  min-height:calc(100vh - 100px);
+}
+hr{
+  width:90%;
+}
+section{
+  display:inline-block;
+  width:30%;
+}
+header{
+  width:60vw;
+  display:block;
+  padding:0 auto 0 auto;
+}
